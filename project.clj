@@ -4,13 +4,13 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/core.match "0.3.0-alpha5"]
-                 [org.clojure/clojure "1.9.0-alpha17"]
-                 [org.clojure/core.async "0.3.443"
+                 [org.clojure/clojure "1.9.0"]
+                 [org.clojure/core.async "0.4.474"
                   :exclusions [org.clojure/core.cache
                                org.clojure/core.memoize]]
                  [com.rpl/specter "1.0.4"]
                  [com.datomic/datomic-free "0.9.5561.62"]
-                 [mount "0.1.12-SNAPSHOT"]
+                 [mount "0.1.12"]
 
                  [org.clojure/core.logic "0.8.11"]
 
@@ -24,17 +24,9 @@
                  [distributions "0.1.3-SNAPSHOT"
                   :exclusions [net.mikera/vectorz-clj
                                net.mikera/core.matrix]]
-                 [uncomplicate/bayadera "0.1.0-SNAPSHOT"
-                  :exclusions [org.clojure/core.memoize]]
-                 [uncomplicate/neanderthal "0.16.1"
-                  :exclusions [org.clojure/core.cache
-                               org.clojure/core.memoize
-                               uncomplicate/commons]]
-
-                 [huri "0.10.0-SNAPSHOT"
-                  :exclusions [io.aviso/pretty
-                               com.google.guava/guava
-                               com.taoensso/encore
-                               com.taoensso/truss
-                               com.taoensso/timbre]]
-                 ])
+                 [muse2/muse "0.4.4-SNAPSHOT"
+                  :exclusions [riddley]]
+                 [cats "0.4.0"]
+                 [com.climate/claypoole "1.1.4"]
+                 [manifold "0.1.7-alpha6"]
+                 [http-kit "2.3.0-beta2"]])

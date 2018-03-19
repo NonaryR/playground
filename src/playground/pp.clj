@@ -1,3 +1,2 @@
-(ns playground.pp
-  (:require [uncomplicate.bayadera.distributions :as d]))
+(ns playground.pp)
 
